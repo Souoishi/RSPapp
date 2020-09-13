@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <title>Document</title>
+</head>
+<body>
+
+    <header>
+        <h1>Rock Paper Scissors</h1>
+    </header>
+
+    <div class='upper_wrapper'>
+    <!--DOM point1, manupulates (1) #your_icon (2) #pcs_icon -->
+
+        <div class='you'>
+            <div class='your_icon'>
+                <i id=your_icon class="fas fa-user"></i>
+                <p>You</p>
+            </div>
+        </div>
+    <!--DOM point1, manupulates (3) #your_score (4) #ties (5) #pcs_score -->
+        <section class='score_bord'>
+            <div class='your_score'> Wins
+                <div id='your_score'> 0 </div>
+            </div>
+            <div class='tie'> Ties
+                <div id='tie'> 0 </div>
+            </div>
+            <div class='pcs_score'>Wins
+                <div id='pcs_score'> 0 </div>
+            </div>
+        </section>
+
+        <div class='pc'>
+            <div class='pcs_icon'>
+                <i id=pcs_icon class="fas fa-user"></i>
+                <p>PC</p>
+            </div>
+        </div>
+    </div>
+<!--DOM point1, manupulates (6) #rounds -->
+    <div id='rounds' class='round'>Round 1</div>
+
+<!--DOM point1, manupulates either (7) #R or S or P -->
+    <div class='play'>
+        <button type="button" id='play_btn' class="btn btn-outline-primary btn-lg">Play</button>
+        <button type="button" id='reset_btn' class="btn btn-outline-warning btn-lg">Reset</button>
+    </div>
+<!--DOM point1, manupulates either (7) #R or S or P -->
+    <div class='under_wrapper'>
+        <i id='rock' class="far fa-hand-rock"></i>
+        <i id='scissors' class="far fa-hand-scissors"></i>
+        <i id='paper' class="far fa-hand-paper"></i>
+    </div>
+    <div class='instruction'>Please click your choice First. Then click the Play button </div>
+
+
+
+    <script type="text/javascript" src="app.js"></script>
+</body>
+</html>

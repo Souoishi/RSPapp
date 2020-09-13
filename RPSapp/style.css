@@ -1,0 +1,140 @@
+
+body {
+    background: linear-gradient(to right,rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.9) 100%);
+    background-size: cover;
+    background-position: center;
+}
+
+h1 {
+    color: rgb(245, 226, 226);
+    text-align: center;
+}
+
+.upper_wrapper{
+    width: 80%;
+    margin: 0 auto;
+    display:grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    color: rgb(245, 226, 226);
+    
+}
+
+
+.score_bord{
+    
+    width: 60%;
+    margin: 0 auto;
+    padding: 20px 0;
+    text-align: center;
+    color: rgb(245, 226, 226);
+    display: flex;
+    justify-content: center;
+              
+}
+
+.you {
+    margin: auto;
+    text-align: center;
+    
+}
+
+#your_icon{
+    margin: 0 auto;
+    padding: 20px 60px;
+    border-radius: 10%;
+    background-color: rgba(136,133,133,0.5);
+    border: 2px solid rgb(245, 226, 226);
+}
+
+
+.pc {
+    margin: auto;
+    text-align: center;
+}
+
+#pcs_icon{
+    margin: 0 auto;
+    padding: 20px 60px;
+    border-radius: 10%;
+    background-color: rgba(136,133,133,0.5);
+    border: 2px solid rgb(245, 226, 226);
+}
+
+
+.score_bord .your_score {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column; 
+}
+
+.score_bord .tie {
+    margin: 50px 50px;
+    display: flex;
+    flex-direction: column; 
+}
+
+.score_bord .pcs_score {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column; 
+}
+
+.round {
+    text-align: center;
+    color: rgb(245, 226, 226);
+
+}
+
+.play {
+    margin: 0 auto;
+    padding-top: 60px;
+    text-align: center;
+}
+
+
+
+
+.under_wrapper{
+    width: 80%;
+    margin: 0 auto;
+    padding: 60px 0 0 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    color: rgb(245, 226, 226);
+}
+
+.fa-hand-rock{
+    margin: 0 auto;
+    padding: 20px 60px;
+    border-radius: 10%;
+    background-color: rgba(136,133,133,0.5);
+    border: 2px solid rgb(245, 226, 226);
+}
+
+.fa-hand-scissors{
+    margin: 0 auto;
+    padding: 20px 60px;
+    border-radius: 10%;
+    background-color: rgba(136,133,133,0.5);
+    border: 2px solid rgb(245, 226, 226);
+
+}
+
+.fa-hand-paper{
+    margin: 0 auto;
+    padding: 20px 60px;
+    border-radius: 10%;
+    background-color: rgba(136,133,133,0.5);
+    border: 2px solid rgb(245, 226, 226);
+
+}
+
+
+.instruction{
+    margin-top: 1rem;
+    text-align: center;
+    font-size: 2rem;
+    color: rgb(245, 226, 226);
+
+}
